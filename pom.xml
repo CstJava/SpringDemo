@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>SpringDemo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring-resource</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.version>5.3.10</spring.version>
+
+    </properties>
+
+<!--    <modules>-->
+<!--        <module>spring-annotation</module>-->
+<!--        <module>spring-aware</module>-->
+<!--        <module>spring-interface</module>-->
+<!--        <module>spring-jsr</module>-->
+<!--        <module>spring-core</module>-->
+<!--        <module>spring-aop</module>-->
+<!--        <module>spring-mvc</module>-->
+<!--        <module>spring-resources</module>-->
+<!--        <module>spring-metadata</module>-->
+<!--        <module>spring-beans</module>-->
+<!--        <module>spring-context</module>-->
+<!--        <module>spring-factory</module>-->
+<!--        <module>spring-env</module>-->
+<!--        <module>spring-dataops</module>-->
+<!--        <module>spring-spel</module>-->
+<!--    </modules>-->
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+    </dependencies>
+</project>
