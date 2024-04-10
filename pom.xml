@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-resources</module>
+        <module>spring-context</module>
     </modules>
 
     <properties>
